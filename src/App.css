@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Base Styling for the qrcode section and tile*/
+.qrCode {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+  padding: 4rem 2rem;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.card {
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+  padding: 1rem 1rem 2rem 1rem;
+  background-color: white;
+  border-radius: 1rem;
+  font-family: "Outfit", sans-serif;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 1rem;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  color: hsl(218, 44%, 22%);
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.card p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+/*Media Queries*/
+
+@media (min-width: 375px) {
+  .card {
+    max-width: 311px;
+  }
+}
