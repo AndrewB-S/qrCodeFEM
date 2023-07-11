@@ -1,8 +1,9 @@
+import imgUrl from "../images/image-qr-code.png";
 const QRCode = () => {
   return (
     <section className="qrCode">
       <div className="card">
-        <img src="./images/image-qr-code.png" alt="qr code" />
+        <img id="qrCodeImg" src={imgUrl} alt="qr code" />
         <div className="qrText">
           <h2>Improve your front-end skills by building projects</h2>
           <p>
