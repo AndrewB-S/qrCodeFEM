@@ -23,7 +23,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://capable-fairy-e647a7.netlify.app/)
+- Live Site URL: [Hosting by Netlify](https://capable-fairy-e647a7.netlify.app/)
 
 ## My process
 
