@@ -27,7 +27,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## My process
 
-I looked closely at the specs and made note of rounded corners, relationships between sizing, how the text looked, and the size of the image. I based the size of the image on 375px device width, having it scale smaller on smaller screens, remaining the same size on larger screens. If I were to want to make it even more responsive, I would have used view units for the tile sizing, which would allow the tile to scale larger on larger screens, smaller on smaller, etc, instead of the fixed value it currently has.
+I looked closely at the specs and made note of rounded corners, relationships between sizing, how the text looked, and the size of the image. I based the size of the image on 375px device width, having it scale smaller on smaller screens, remaining the same size on larger screens. If I were to want to make it even more responsive, I would have used view units combined with media queries for max size for the tile sizing, which would allow the tile to scale larger on larger screens, smaller on smaller, etc, instead of the fixed value it currently has.
 
 ### Built with
 
