@@ -2,7 +2,7 @@ const QRCode = () => {
   return (
     <section className="qrCode">
       <div className="card">
-        <img src="../images/qrcode.png" alt="qr code" />
+        <img src="./images/image-qr-code.png" alt="qr code" />
         <div className="qrText">
           <h2>Improve your front-end skills by building projects</h2>
           <p>
