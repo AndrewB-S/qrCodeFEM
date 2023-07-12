@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). I'm going to be going through their challenges and this was their intro to their challenge completion workflow. This is a responsive QR code that scales to the size of its container. You could, if you wanted, pass in some css as props to size or adjust the QRCode box, and then you wouldn't need the nasty extra div wrapper. 
 
 ## Table of contents
 
